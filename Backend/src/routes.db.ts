@@ -4,7 +4,7 @@ import { Router } from 'express'
 
 import db from './db'
 
-import type {note} from '../types/ObjectTypes' 
+import type {note} from './types/ObjectTypes' 
 
 const router = Router()
 

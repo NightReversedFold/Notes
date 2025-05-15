@@ -7,7 +7,7 @@ import http from 'http'
 import { ClientToServerEvents,
   ServerToClientEvents,
   InterServerEvents,
-  SocketData} from '../types/webSocket'
+  SocketData} from './types/webSocket'
 
 import {Server,Socket} from 'socket.io'
 import { CORS_url, PORT } from './config'
