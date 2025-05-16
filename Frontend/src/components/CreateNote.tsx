@@ -4,7 +4,7 @@ import type { addNoteHandler } from "../types/StateSetters";
 import { useEffect, useRef, useState } from "react";
 
 const errors = {
-  Lenght: "Content must have 40 or more characters.",
+  Lenght: "Content must have 10 or more characters.",
   Empty: "Content cannot be empty.",
   CantCreate: 'An error ocurred when trying to create the note.'
 } as const;
