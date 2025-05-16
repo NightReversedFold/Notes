@@ -15,4 +15,4 @@ This is the main page with some notes:
 And this is the "create note" interface:
 ![image](https://github.com/user-attachments/assets/d7379d4f-4b2d-424e-b371-9defcf009ea5)
 
-The link may not be online or the it may take 50 seconds to show all the notes if nobody has been used the app in a while, because i used a free deployment service to deploy the application (Render.com) 
+The link may not be online or it could take 50 seconds to show all the notes if nobody has been used the app in a while, because i used a free deployment service to deploy the application (Render.com) 
