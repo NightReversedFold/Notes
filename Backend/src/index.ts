@@ -12,7 +12,14 @@ import { ClientToServerEvents,
 import {Server,Socket} from 'socket.io'
 import { CORS_url, PORT } from './config'
 
+import cors from 'cors';
+
 const app = express()
+
+app.use(cors({
+  origin: CORS_url,
+}));
+
 const server = http.createServer(app)
 
 const io = new Server<ClientToServerEvents,ServerToClientEvents, InterServerEvents,SocketData>(server,{
