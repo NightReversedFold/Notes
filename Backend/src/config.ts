@@ -7,4 +7,6 @@ export const DB_password = process.env.DB_password || 'angel123'
 
 export const CORS_url = process.env.CORS_url || 'http://localhost:5173'
 
+export const DB_url = process.env.DB_url
+
 export const PORT = process.env.PORT || 3100
