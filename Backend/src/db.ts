@@ -8,9 +8,9 @@ const db = new Pool({
     password: DB_password,
     connectionString: DB_url || undefined, // URL de Render
 
-    ssl:{
+     ssl: DB_url ? {
         rejectUnauthorized:false
-    }
+    }:undefined
 })
 
 export default db
