@@ -27,7 +27,7 @@ function App() {
         content,
       };
 
-      const query = await fetch(`${import.meta.env.VITE_Api || "http//localhost:3100"}/api/getNotes`, {
+      const query = await fetch(`${import.meta.env.VITE_Api || "http//localhost:3100"}/api/createNote`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
