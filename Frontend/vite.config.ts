@@ -15,7 +15,6 @@ export default defineConfig(({mode}) => {
   },
   server: {
     proxy: {
-      '/api': api,
       '/socket.io':{
         target:api, 
         ws:true
