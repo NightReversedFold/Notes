@@ -50,7 +50,7 @@ function App() {
   const setNotesFromDB = async () => {
     console.log("notes container use effect");
 
-    const res = await fetch(process.env.VITE_Api || "http//localhost:3000/api/getNotes");
+    const res = await fetch(import.meta.env.VITE_Api || "http//localhost:3000/api/getNotes");
     const res2 = await res.json();
 
     setNotes(res2);
