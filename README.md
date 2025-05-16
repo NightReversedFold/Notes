@@ -6,7 +6,7 @@ Notes (https://notes-front-f2y9.onrender.com/) is a basic, responsive, real-time
   - Postgresql
   - Tailwindcss
 
-In this application the users can add notes, with what ever they want, and it will be saved on a postgresql data base, but the users won't be able to delete the notes.
+In this application the users can add notes, with what ever they want, it can include the author of the note. It will be saved on a postgresql data base, but the users won't be able to delete the notes.
 I used a web socket; so when a user publish a note it will fire the signal to all the connected clients, so they can see the new note without needing to update the website.
 
 This is the main page with some notes:
