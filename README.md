@@ -1,0 +1,12 @@
+![image](https://github.com/user-attachments/assets/bf116806-a99c-4f95-a21c-40ffa3fb329f)Notes is a basic, responsive, real-time application made with:
+  - Typescript
+  - Socket.io
+  - Express
+  - React
+  - Postgresql
+  - Tailwindcss
+
+In this application the users can add notes, with what ever they want, and it will be saved on a postgresql data base, but the users won't be able to delete the notes.
+I used a web socket; so when a user publish a note it will fire the signal to all the connected clients, so they can see the new note without needing to update the website.
+
+![image](https://github.com/user-attachments/assets/21447015-2cba-4a00-b5de-002d2835897b)
